@@ -1,6 +1,9 @@
 # 100 Days CSS Challenge [Day 01]
 
 ## Team And Social Media Link
+
+![Day 01](/Day%2001/img/Day%2001.gif)
+
 ### Introduction
 
 As part of the `"100-Days-CSS-Challenge"` I wanted to challenge myself by recreating a design I saw on [Relume.io](https://www.relume.io/). The concept featured a horizontal row of profile images with an animation that responded to user interaction. It immediately caught my attention, and I knew I had to give it a shot. This attempt was not just about copying the visuals but also about understanding the underlying `CSS` techniques and improving my animation skills.
@@ -30,4 +33,3 @@ Working on this project was both exciting and frustrating at times. I felt a sen
 Recreating this design was a rewarding experience that pushed me to explore new techniques and refine my skills. I’m proud of what I achieved, and this project has motivated me to take on more complex challenges in the future. For my next challenge, I’m considering experimenting with keyframe animations or a dynamic grid layout.
 
 Reflecting on this journey, I’m excited about the progress I’m making and can’t wait to see how far I’ll go by the end of the "100-Days-CSS-Challenge."
-![Day 01](/Day%2001/img/Day%2001.gif)
