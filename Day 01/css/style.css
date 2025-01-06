@@ -4,11 +4,25 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: capitalize;
-    color: white;
 }
 
 body {
     background-color: #f1f0ee;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.attribution {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
 
 .container {
@@ -59,11 +73,16 @@ h3,
 h4 {
     line-height: 1.6em;
     margin-left: 5px;
+    color: white;
 }
 
 h4 {
     opacity: .8;
     font-size: small;
+}
+
+i {
+    color: white;
 }
 
 .info {
