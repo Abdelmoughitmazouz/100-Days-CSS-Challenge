@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* Rest Element */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* Css Variables */
+:root {
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey-700: hsl(0, 0%, 20%);
+    --Grey-800: hsl(0, 0%, 12%);
+    --Grey-900: hsl(0, 0%, 8%);
+    --font-size: 14px;
+}
+
+/* body style */
+body {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    font-family: "Inter", serif;
+    background-color: var(--Grey-900);
+    color: var(--White);
+}
+
+/* cards */
+.container {
+    padding: 30px;
+    max-width: 400px;
+    margin: 15px;
+    text-align: center;
+    background-color: var(--Grey-800);
+    border-radius: 15px;
+}
+
+/* image profil */
+
+img {
+    margin-bottom: 10px;
+    border-radius: 100%;
+    width: 90px;
+}
+
+/* description */
+h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.location {
+    color: var(--Green);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-size: 12px;
+    font-weight: 400;
+    margin: 15px 0;
+
+}
+
+/* buttom */
+
+ul {
+    margin-top: 1rem;
+}
+
+li a {
+    all: inherit;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    background-color: var(--Grey-700);
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: var(--Green);
+    color: var(--Grey-900)
+}
+
+ul li {
+    all: inherit;
+}
