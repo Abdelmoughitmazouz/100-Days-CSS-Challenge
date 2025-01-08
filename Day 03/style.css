@@ -1,0 +1,64 @@
+/* import font */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* rest page */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Outfit", serif;
+}
+
+/* footer */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+/* variable */
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Slate-300: hsl(212, 45%, 89%);
+    --Slate-500: hsl(216, 15%, 48%);
+    --Slate-900: hsl(218, 44%, 22%);
+}
+
+body {
+    background-color: var(--Slate-300);
+    display: grid;
+    min-height: 100vh;
+    place-content: center;
+}
+
+.card {
+    background-color: var(--White);
+    width: 320px;
+    height: 499px;
+    border-radius: 20px;
+    align-items: flex-end;
+    padding: 16px 16px 40px;
+}
+
+img {
+    width: 288px;
+    border-radius: 10px;
+}
+/* Typography */
+.text * {
+    text-align: center;
+    margin-top: 16px;
+}
+
+.text h2 {
+    color: var(--Slate-900);
+}
+
+.text p {
+    color: var(--Slate-500);
+}
