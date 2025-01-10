@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.attribution {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.attribution a{
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    background:
+        linear-gradient(#787878, #787878) center/50% 50% no-repeat,
+        linear-gradient(#f65314, #f65314) left top/49.5% 49.5% no-repeat,
+        linear-gradient(#7cbb00, #7cbb00) right top/49.5% 49.5% no-repeat,
+        linear-gradient(#00a1f1, #00a1f1) left bottom/49.5% 49.5% no-repeat,
+        linear-gradient(#ffbb00, #ffbb00) right bottom/49.5% 49.5% no-repeat;
+}
